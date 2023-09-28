@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Logo from "./lotta.jpg";
+import Logo from "./LHD.png";
 import Image from "next/image";
 
 export default function Navbar() {
