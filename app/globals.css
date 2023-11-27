@@ -4,7 +4,7 @@
 
 /* base styles */
 body {
-  background: #ebf0fa;
+  background: white;
   @apply text-gray-500 m-8;
 }
 h1, h2 {
@@ -137,3 +137,30 @@ form button {
     absolute bottom-0 right-0 
     rounded-tl-md;
 }
+
+/* components/ServicesSection.module.css */
+
+/* ServicesSection.css */
+.services-container {
+  @apply flex bg-gray-200 p-2 text-left m-7 rounded-lg w-1/2 overflow-x-auto break-words;
+}
+
+
+
+.service {
+  @apply bg-white border border-gray-300 rounded-lg  flex-1;
+}
+
+.icon-container {
+  @apply bg-primary w-1/2 h-16 mt-9 rounded-lg  ;
+}
+h2 {
+  @apply  font-semibold text-black; 
+}
+
+h1 {
+  @apply text-center ;
+}
+
+
+
